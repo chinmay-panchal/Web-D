@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    background-color: black;
+    color: white;
+    height: 60px
+}
+
+a{
+    margin-right: 150px;
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    margin-left: 2px;
+    font-size: 25px;
+    color: #f08804;
+}
+
+input{
+    margin-left: 100px;
+}
+
+#search::placeholder{
+    color: black;
+}
+
+button{
+    background-color: #f08804;
+    color: white;
+}
+
+.main{
+    width: 100px;
+    height: 100px;
+    border: 1px, solid, black;
+    display: inline-block;
+}
+
+#contentArea{
+    height: 580px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    /* background-color: aqua; */
+}
+
+#outside{
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inside{
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+}

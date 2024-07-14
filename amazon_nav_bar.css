@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#navbar{
+    background-color: black;
+    height: 40px
+}
+
+#search{
+    color: black;
+}
+
+#search::placeholder{
+    color: black;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 150px;
+    text-decoration: none;
+}
