@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending page</title>
+    <link rel="Stylesheet" href="styles.css">
+</head>
+    <body>
+        <nav>
+            <div class="banner1">
+                <div class="navbar">
+                    <h4 style="font-family: Georgia; color: black; font-weight: bolder;" class="logo">GETnews.com</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Trending.html">Trendings</a></li>
+                        <li><a href="explore.html">Explore</a></li>
+                    </ul>
+                    <div class="search-bar flex">
+                        <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+                        <a href="#" id="search-button" class="search-button">SEARCH</a></li>
+                    </div>
+                </div>
+            </div>
+
+            <main1>
+                <div class="cards-container container flex" id="cards-container">
+                    <div class="card" onclick="handleCardClick('Bangladesh')">
+                        <div class="card-header">
+                            <img src="Bangladesh_pic.jfif" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h2 id="news-title">Bangladesh Protests</h2>
+                            <h5 class="news-desc" id="news-desc">
+                                Historic Upheaval in Bangladesh: Prime Minister Resigns Amidst Violent Protests.
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="card" onclick="handleCardClick('Medals')">
+                        <div class="card-header">
+                            <img src="paris_pic.jfif" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h2 id="news-title">Paris 2024 Olympics</h2>
+                            <h5 class="news-desc" id="news-desc">
+                                Discover the latest updates and exciting events of the Paris 2024 Olympics. 
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card" onclick="handleCardClick('Ai')">
+                        <div class="card-header">
+                            <img src="technology_pic.jpg" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h2 id="news-title">Emerging Technologies</h2>
+                            <h5 class="news-desc" id="news-desc">
+                                The Future of AI: How Integration with Emerging Technologies is Shaping Tomorrow.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card" onclick="handleCardClick('Lok Sabha')">
+                        <div class="card-header">
+                            <img src="parliament_pic.jfif" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h1 id="news-title">Lok Sabha Sessions</h3>
+                            <h5 class="news-desc" id="news-desc">
+                                Key Highlights from the Recent Lok Sabha Sessions,
+                                Significant Debates That Highlighted Key Issues and Policy Directions
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card" onclick="handleCardClick('Trump')">
+                        <div class="card-header">
+                            <img src="elections_pic.jpg" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h1 id="news-title">American Elections</h3>
+                            <h5 class="news-desc" id="news-desc">
+                                The Rest of the World Has Short Elections.
+                                <br> 
+                                America’s Finally About to Try It.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card" onclick="handleCardClick('Climate Change')">
+                        <div class="card-header">
+                            <img src="climate_pic.jfif" alt="news-image" id="news-img">
+                        </div>
+                        <div class="card-content">
+                            <h1 id="news-title">Climate Change</h3>
+                            <h5 class="news-desc" id="news-desc">
+                                How Rising Temperatures are Affecting Ecosystems and Human Communities Worldwide
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </main1>
+        </nav>
+        <script src="script.js"></script>
+    </body>
+</html>

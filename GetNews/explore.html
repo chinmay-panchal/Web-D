@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore-Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="banner1">
+            <div class="navbar">
+                <h4 style="font-family: Georgia; color: black; font-weight: bolder;" class="logo">GETnews.com</h4>
+                <ul class="flex">
+                    <li class="hover-link nav-item" id="Olympics" onclick="onNavItemClick('Medal')">Olympics</li>
+                    <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                    <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li> 
+                </ul>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Trending.html">Trendings</a></li>
+                </ul>
+                <div class="search-bar flex">
+                    <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+                    <a href="#" id="search-button" class="search-button">SEARCH</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+        
+    <main>
+        <div class="cards-container container flex" id="cards-container1">
+            
+        </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="./assets/Getnews.png" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">Name: 18/07/2024 time </h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
